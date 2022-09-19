@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <form id="temperaturecalci" onSubmit="calculate(); return false">
+        <h2>Enter the Temperature</h2>
+        <input type="text" id="temp" name="temp">  
+        <select name="tempch" id="tempch">
+            <option value="opt" value = 'celsius' >Celsius</option>
+            <option value="opt" value = 'Fahrenheit' >Fahrenheit</option>
+        </select>
+        <input type="submit" name="temp" id="submit" >
+        <span id="resultcon" ></span>
+        </form>
+    </div>
+    <script src="CALCULATOR.JS"></script>
+</body>
+</html>

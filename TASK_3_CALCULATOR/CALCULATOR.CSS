@@ -1,0 +1,61 @@
+body{
+    padding: 0%;
+    background-color: brown;
+    margin: 0%;
+}
+
+.container{
+    height: 80vh;
+    width: 70vw;
+    background-color: lightgreen;
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    border-radius: 30px;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+h2{
+    color: blue;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#temp{
+    margin: 20px;
+    height: 1cm;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#tempch{
+    margin: 20px;
+    height: 1cm;
+    font-size: 25px;
+    font-weight: bold;   
+}
+
+#submit{
+    margin: 20px;
+    height: 1cm;
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+span{
+    color: blue;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
